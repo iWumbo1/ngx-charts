@@ -144,7 +144,7 @@ export class XAxisTicksComponent implements OnChanges, AfterViewInit {
     }
 
     const len = Math.min(this.maxTicksLength, this.maxAllowedLength);
-    const charWidth = 8; // need to measure this
+    const charWidth = 10; // need to measure this
     const wordWidth = len * charWidth;
 
     let baseWidth = wordWidth;
