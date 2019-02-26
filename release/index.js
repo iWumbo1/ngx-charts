@@ -7412,7 +7412,7 @@ var XAxisTicksComponent = /** @class */ (function () {
             }
         }
         var len = Math.min(this.maxTicksLength, this.maxAllowedLength);
-        var charWidth = 8; // need to measure this
+        var charWidth = 10; // need to measure this
         var wordWidth = len * charWidth;
         var baseWidth = wordWidth;
         var maxBaseWidth = Math.floor(this.width / ticks.length);
