@@ -7416,6 +7416,7 @@ var XAxisTicksComponent = /** @class */ (function () {
         var wordWidth = len * charWidth;
         var baseWidth = wordWidth;
         var maxBaseWidth = Math.floor(this.width / ticks.length);
+		console.log("XXX " + charWidth + " " + baseWidth + " " + maxBaseWidth + " " + ticks.length);
         // calculate optimal angle
         while (baseWidth > maxBaseWidth && angle > -90) {
             angle -= 30;
