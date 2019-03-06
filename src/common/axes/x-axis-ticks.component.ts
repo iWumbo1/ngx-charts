@@ -149,7 +149,7 @@ export class XAxisTicksComponent implements OnChanges, AfterViewInit {
 
     let baseWidth = wordWidth;
     const maxBaseWidth = Math.floor(this.width / ticks.length);
-
+    console.log("XXX " + charWidth + " " + baseWidth + " " + maxBaseWidth+ " " + wordWidth);
     // calculate optimal angle
     while (baseWidth > maxBaseWidth && angle > -90) {
       angle -= 30;
